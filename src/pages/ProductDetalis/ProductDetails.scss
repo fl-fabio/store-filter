@@ -1,0 +1,36 @@
+.container-detail {
+    padding: 40px;
+  
+    .row {
+      .img-container {
+        text-align: center;
+
+        .image{
+          max-height: 700px;
+          object-fit: contain;
+        }
+      }
+  
+      h1 {
+        font-size: 2rem;
+      }
+  
+      h2 {
+        font-size: 1.5rem;
+        color: #007bff; // Bootstrap primary color
+      }
+  
+      h3 {
+        font-size: 1.2rem;
+        margin-top: 10px;
+      }
+  
+      p {
+        font-size: 1rem;
+      }
+  
+      .btn-primary {
+        margin-top: 15px;
+      }
+    }
+  }

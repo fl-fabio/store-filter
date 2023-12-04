@@ -1,0 +1,18 @@
+.bread-wrapper {
+    height: 5rem;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 1.3rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+        font-size: 1.2rem;
+        color: #155e75;
+        transition: all .3s ease;
+        &:hover {
+          color: #155e75;
+        }
+      }
+}
